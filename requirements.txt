@@ -1,0 +1,21 @@
+# Requirements for Credit Card Fault Detection (Python 3.13)
+
+# Streamlit (works fine on 3.13)
+streamlit==1.37.0
+
+# Matplotlib and Joblib (already support 3.13)
+matplotlib==3.9.2
+joblib==1.4.2
+
+# Pandas (nightly wheels for Python 3.13)
+--pre
+--extra-index-url https://pypi.anaconda.org/scientific-python-nightly-wheels/simple
+pandas
+
+# Scikit-learn (pre-release builds for Python 3.13)
+--pre
+scikit-learn
+
+# XGBoost (pre-release builds for Python 3.13)
+--pre
+xgboost
